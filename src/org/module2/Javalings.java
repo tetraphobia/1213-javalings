@@ -47,9 +47,9 @@ public class Javalings {
      * common for students to add semicolons to the end of a conditional
      * header as well. This is a mistake.
      */
-    static void someConditional() {
+    static void someConditional() throws Exception {
         if (false);
-            System.out.println("!! This should not be printed !!");
+            throw new Exception("Check your conditional statement header for semicolons");
     }
     
     /*
