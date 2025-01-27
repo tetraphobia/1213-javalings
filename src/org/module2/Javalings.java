@@ -108,7 +108,8 @@ public class Javalings {
         System.out.print("Enter a name: ");
         String name = scan.nextLn();
         System.out.println("Hello " + name);
-        scan.close();
+        // Normally, we would close our scanner here, but we won't do it because it'll break the next method.
+        // scan.close();
     }
     
     /*
